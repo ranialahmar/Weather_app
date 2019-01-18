@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:100,200,300,300i,400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+
+
 .App {
   text-align: center;
+  background-image: url("./logo.svg") center center no-repeat;
 }
 
 .App-logo {
@@ -29,4 +36,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.title-container {
+  height: 50vh;
+  background-image: url("./logo.svg") center center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(11, 3, 82);
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios'
 import './App.css';
+import Titles from './Titles';
 
 class App extends Component {
   state = {
@@ -18,15 +19,22 @@ class App extends Component {
       .catch(error => console.log(error))
   }
 
+
+                                  
   render() {
     return (
       <div className="App">
+       <div className="container">
         <header className="App-header">
+        <div className="col-xs-5 title-container">
+          <Titles/>
+        </div>
           <input onChange={this.handleInputChange} value={this.state.city} />
           <button onClick={() => this.getTemp()} >Click</button>
           {this.state.temp !== undefined &&
             <p>{this.state.temp} °C</p>}
         </header>
+      </div>
       </div>
     );
   }
