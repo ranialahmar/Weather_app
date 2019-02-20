@@ -6,7 +6,6 @@
 
 .App {
   text-align: center;
-  background-image: url("./logo.svg") center center no-repeat;
 }
 
 .App-logo {
@@ -15,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #969294;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -40,11 +39,10 @@
 
 .title-container {
   height: 50vh;
-  background-image: url("./logo.svg") center center no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: rgb(11, 3, 82);
+  color: rgb(0, 0, 0);
 }
